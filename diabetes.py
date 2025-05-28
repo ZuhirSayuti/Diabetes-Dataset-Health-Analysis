@@ -9,7 +9,7 @@ def data_load(file):
     df = pd.read_csv(file)
     return df
 
-#Cleaning data for visualization
+#CLEANING DATA FOR VISUALIZATIONS
 def data_cleaning(df):
     df.dropna(inplace=True)
 
@@ -102,6 +102,7 @@ def data_cleaning(df):
     df["Age"] = df["Age"].map(age_map)
     return df
 
+#CATEGORZING MENTAL HEALTH COLUMN
 def categorize_mentalhealth(days):
     if days <= 5:
         return "Good, Less than 5 days"
@@ -110,6 +111,7 @@ def categorize_mentalhealth(days):
     else:
         return "Poor, more than 15"
 
+#FORMATING PHYSICALHEALTH COLUMN
 def format_physicalhealth(days):
     return f"{days}" + " Days"
 
