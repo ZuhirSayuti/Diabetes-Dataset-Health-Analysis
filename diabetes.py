@@ -101,6 +101,7 @@ def data_cleaning(df):
     }
     df["Age"] = df["Age"].map(age_map)
     return df
+
 def categorize_mentalhealth(days):
     if days <= 5:
         return "Good, Less than 5 days"
@@ -213,5 +214,6 @@ def main():
     plot_age_diabetes(df)
     plot_bmi_boxplot(df)
     plot_correlation_heatmap(FILE_PATH)
+
 if __name__ == "__main__":
     main()
