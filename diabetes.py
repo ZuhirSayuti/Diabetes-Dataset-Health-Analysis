@@ -3,8 +3,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
+#SAVING FILE PATH
 FILE_PATH = os.path.join("data", "diabetes_012_health_indicators_BRFSS2015-.csv")
 
+#LOADING DATA
 def data_load(file):
     df = pd.read_csv(file)
     return df
