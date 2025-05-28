@@ -104,7 +104,7 @@ def data_cleaning(df):
     df["Age"] = df["Age"].map(age_map)
     return df
 
-#CATEGORZING MENTAL HEALTH COLUMN
+#CATEGORZING MENTALHEALTH COLUMN
 def categorize_mentalhealth(days):
     if days <= 5:
         return "Good, Less than 5 days"
