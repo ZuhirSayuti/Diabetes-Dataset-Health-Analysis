@@ -7,6 +7,7 @@ This project analyzes a large diabetes dataset using Python and visualizes key i
 ## Dataset
 
 The dataset used is `diabetes_012_health_indicators_BRFSS2015-.csv` which contains health survey data including diabetes status, smoking habits, BMI, heart disease, stroke, and other demographic and health indicators.
+https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
 
 ---
 
