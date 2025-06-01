@@ -1,6 +1,6 @@
 # Diabetes Dataset Health Analysis
 
-This project analyzes a large diabetes dataset using Python and visualizes key insights with Matplotlib and Seaborn. It provides a comprehensive exploratory data analysis (EDA) of health indicators related to diabetes, smoking, heart disease, and other factors.
+This project analyzes a large diabetes dataset using Python and visualizes key insights with Matplotlib and Seaborn and Tableau. It provides a comprehensive exploratory data analysis (EDA) of health indicators related to diabetes, smoking, heart disease, and other factors.
 
 ---
 
